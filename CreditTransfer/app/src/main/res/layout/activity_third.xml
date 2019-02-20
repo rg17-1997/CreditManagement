@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rg17.credittransfer.ThirdActivity"
+    android:orientation="vertical"
+    android:background="#304FFE">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#EEEEEE">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Name"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textColor="#000205"/>
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"></Spinner>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#EEEEEE">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Credit"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textColor="#000205"/>
+
+        <EditText
+            android:id="@+id/edit_text"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:inputType="number"
+            android:maxLength="4"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:textColor="#000205"
+            android:hint="Enter Credit"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/transfer_button"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="40dp"
+        android:text="Transfer"
+        android:textSize="25dp"
+        android:background="#FF0000"/>
+
+
+</android.support.v7.widget.LinearLayoutCompat>
